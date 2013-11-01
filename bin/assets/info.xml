@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<location infoID="1" name="asa" width="2088" height="1584" laps="1"
+			environment="map" closerBG="closerBG" 
+			frictionMin="0.05" frictionMax="0.15" 			
+			fartherBG="fartherBG" frictionMap="frictionMap" description="location" />
+	
+	<object infoID="10" skin="cap" mass="0.1" boundRadius="15" />
+	<object infoID="11" skin="bucked" mass="0.1" boundRadius="10"/>
+	<object infoID="12" skin="signTurnComplex" mass="999999" boundRadius="10"/>
+	<object infoID="13" skin="signTurnSimple" mass="999999" boundRadius="10"/>
+	<object infoID="14" skin="mailBox" mass="5" boundRadius="15"/>
+	<object infoID="15" skin="signStop" mass="999999" boundRadius="10"/>
+	<object infoID="16" skin="streetLight" mass="999999" boundRadius="10"/>
+	<object infoID="17" skin="treeSmall" mass="999999" boundRadius="10"/>
+	<object infoID="18" skin="treeMedium" mass="999999" boundRadius="10"/>
+	<object infoID="20" skin="treeBig" mass="999999" boundRadius="10"/>
+	
+	<racer infoID="100" name="Mariel" faceSheetID="200" detailedRaceSheetID="201" generalRaceSheetID="202" maxDeviationAngle="15" mass="1" engineForce="100" breakForce="70" turnForce="15" >
+		<startRaceMessages>
+			<message text="Let's rock, son!!!" expression="2"/>
+		</startRaceMessages>
+		<raceWinMessages>
+			<message text="Awesome, son. You are my hero." expression="1"/>
+		</raceWinMessages>
+		<raceFailMessages>
+			<message text="Not bad, son. Next time we will have better luck" expression="4"/>
+		</raceFailMessages>
+		<wrongDirectionMessages>
+			<message text="Son turn back. It's wrong direction." expression="0"/>
+		</wrongDirectionMessages>
+		<positionWinMessages>
+			<message text="Hah! Excellent." expression="1"/>
+		</positionWinMessages>
+		<positionFailMessages>
+			<message text="It's not for long." expression="0"/>
+		</positionFailMessages>
+		<collisionMessages>
+			<message text="My goodness!" expression="0"/>
+		</collisionMessages>
+		
+	</racer>
+	<racer infoID="101" name="Super Cow" faceSheetID="203" detailedRaceSheetID="204" generalRaceSheetID="205" maxDeviationAngle="15" mass="1.6" engineForce="160" breakForce="60" turnForce="13">
+		<startRaceMessages>
+			<message text="Let's win!!" expression="1"/>
+			<message text="Good day to be a hero!" expression="1"/>
+		</startRaceMessages>
+		<raceWinMessages>
+			<message text="You are winner. My congratulations." expression="2"/>
+		</raceWinMessages>
+		<raceFailMessages>
+			<message text="Next time we will have better luck" expression="5"/>
+		</raceFailMessages>
+		<wrongDirectionMessages>
+			<message text="It's wrong direction." expression="4"/>
+		</wrongDirectionMessages>
+		<positionWinMessages>
+			<message text="God job!" expression="3"/>
+			<message text="Aerobatics" expression="3"/>
+		</positionWinMessages>
+		<positionFailMessages>
+			<message text="Did you see it?" expression="0"/>
+		</positionFailMessages>
+		<collisionMessages>
+			<message text="Mo-m-m-moo!" expression="4"/>
+		</collisionMessages>
+		
+	</racer>
+	<racer infoID="102" name="Chicken" faceSheetID="206" detailedRaceSheetID="207" generalRaceSheetID="208" maxDeviationAngle="15" mass="0.8" engineForce="80" breakForce="10" turnForce="13">
+		<startRaceMessages>
+			<message text="Let's start!" expression="1"/>
+		</startRaceMessages>
+		<raceWinMessages>
+			<message text="Ha-ha! We did it. You are the best, dude." expression="1"/>
+		</raceWinMessages>
+		<raceFailMessages>
+			<message text="No, dude. I can't believe." expression="4"/>
+		</raceFailMessages>
+		<wrongDirectionMessages>
+			<message text="Turn back. Turn back. Turn back. Turn back. Turn back. Turn back. Turn back. Turn back. Wrong way." expression="2"/>
+			<message text="Did I say that it is wrong way?" expression="2"/>
+		</wrongDirectionMessages>
+		<positionWinMessages>
+			<message text="Awesome." expression="1"/>
+			<message text="It naturally, dude." expression="1"/>
+			<message text="It naturally, dude." expression="1"/>
+		</positionWinMessages>
+		<positionFailMessages>
+			<message text="I think he is joking." expression="3"/>
+			<message text="look at him." expression="3"/>
+		</positionFailMessages>
+		<collisionMessages>
+			<message text="Oops..." expression="5"/>
+			<message text="Ouch" expression="5"/>
+			<message text="A-a-A-A-a-a-a-A" expression="5"/>
+			
+		</collisionMessages>
+		
+	</racer>
+	
+	
+	<sheet infoID="200" source="murielFaceSheet" tileWidth="60" tileHeight="60" totalTiles="6" />
+	<sheet infoID="201" source="murielRegularRaceSheet" tileWidth="60" tileHeight="60" totalTiles="7" />
+	<sheet infoID="202" source="murielSpinRaceSheet" tileWidth="60" tileHeight="60" totalTiles="16" />
+	
+	<sheet infoID="203" source="superCowFaceSheet" tileWidth="60" tileHeight="60" totalTiles="6" />
+	<sheet infoID="204" source="superCowRegularRaceSheet" tileWidth="60" tileHeight="60" totalTiles="7" />
+	<sheet infoID="205" source="superCowSpinRaceSheet" tileWidth="60" tileHeight="60" totalTiles="16" />
+	
+	<sheet infoID="206" source="chickenFaceSheet" tileWidth="60" tileHeight="60" totalTiles="6" />
+	<sheet infoID="207" source="chickenlRegularRaceSheet" tileWidth="60" tileHeight="60" totalTiles="7" />
+	<sheet infoID="208" source="chickenSpinRaceSheet" tileWidth="60" tileHeight="60" totalTiles="16" />
+	
+</data>
